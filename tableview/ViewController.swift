@@ -19,7 +19,7 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var numnber : Int!
+        var number : Int!
         
         //tableviewクラスに書かれているdatasourceメソッドの処理をこのクラスに任せる。(データ提供元をviewcontrollerにする)
         tableview.dataSource = self
