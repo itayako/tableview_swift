@@ -13,6 +13,11 @@
 		51C042321ABBF9F8003BB355 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C042311ABBF9F8003BB355 /* Images.xcassets */; };
 		51C042351ABBF9F8003BB355 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51C042331ABBF9F8003BB355 /* LaunchScreen.xib */; };
 		51C042411ABBF9F8003BB355 /* tableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C042401ABBF9F8003BB355 /* tableviewTests.swift */; };
+		51C0424B1ABC0760003BB355 /* Life is Tech!背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 51C0424A1ABC0760003BB355 /* Life is Tech!背景.png */; };
+		51C042501ABC0771003BB355 /* IMG_1704.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51C0424C1ABC0771003BB355 /* IMG_1704.JPG */; };
+		51C042511ABC0771003BB355 /* IMG_1705.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51C0424D1ABC0771003BB355 /* IMG_1705.JPG */; };
+		51C042521ABC0771003BB355 /* IMG_1706.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51C0424E1ABC0771003BB355 /* IMG_1706.JPG */; };
+		51C042531ABC0771003BB355 /* IMG_1707.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 51C0424F1ABC0771003BB355 /* IMG_1707.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		51C0423A1ABBF9F8003BB355 /* tableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C0423F1ABBF9F8003BB355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C042401ABBF9F8003BB355 /* tableviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewTests.swift; sourceTree = "<group>"; };
+		51C0424A1ABC0760003BB355 /* Life is Tech!背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Life is Tech!背景.png"; sourceTree = "<group>"; };
+		51C0424C1ABC0771003BB355 /* IMG_1704.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1704.JPG; sourceTree = "<group>"; };
+		51C0424D1ABC0771003BB355 /* IMG_1705.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1705.JPG; sourceTree = "<group>"; };
+		51C0424E1ABC0771003BB355 /* IMG_1706.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1706.JPG; sourceTree = "<group>"; };
+		51C0424F1ABC0771003BB355 /* IMG_1707.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1707.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,11 @@
 				51C042271ABBF9F8003BB355 /* tableview */,
 				51C0423D1ABBF9F8003BB355 /* tableviewTests */,
 				51C042261ABBF9F8003BB355 /* Products */,
+				51C0424A1ABC0760003BB355 /* Life is Tech!背景.png */,
+				51C0424C1ABC0771003BB355 /* IMG_1704.JPG */,
+				51C0424D1ABC0771003BB355 /* IMG_1705.JPG */,
+				51C0424E1ABC0771003BB355 /* IMG_1706.JPG */,
+				51C0424F1ABC0771003BB355 /* IMG_1707.JPG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,8 +207,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C042511ABC0771003BB355 /* IMG_1705.JPG in Resources */,
 				51C042301ABBF9F8003BB355 /* Main.storyboard in Resources */,
 				51C042351ABBF9F8003BB355 /* LaunchScreen.xib in Resources */,
+				51C0424B1ABC0760003BB355 /* Life is Tech!背景.png in Resources */,
+				51C042501ABC0771003BB355 /* IMG_1704.JPG in Resources */,
+				51C042521ABC0771003BB355 /* IMG_1706.JPG in Resources */,
+				51C042531ABC0771003BB355 /* IMG_1707.JPG in Resources */,
 				51C042321ABBF9F8003BB355 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tableview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
