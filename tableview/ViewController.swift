@@ -21,7 +21,6 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
         
         var number : Int!
         
-        
         //tableviewクラスに書かれているdatasourceメソッドの処理をこのクラスに任せる。(データ提供元をviewcontrollerにする)
         tableview.dataSource = self
         //Tableviewクラスに書いてある処理をself(viewcontroller)に任せてもらう
