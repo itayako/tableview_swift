@@ -19,6 +19,8 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        var numnber : Int!
+        
         //tableviewクラスに書かれているdatasourceメソッドの処理をこのクラスに任せる。(データ提供元をviewcontrollerにする)
         tableview.dataSource = self
         //Tableviewクラスに書いてある処理をself(viewcontroller)に任せてもらう
@@ -39,6 +41,8 @@ class ViewController: UIViewController , UITableViewDataSource , UITableViewDele
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        
     }
 
 
